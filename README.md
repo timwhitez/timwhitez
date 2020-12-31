@@ -15,11 +15,4 @@
 ## Github stats
 ![timwhite's github stats](https://github-readme-stats.vercel.app/api?username=timwhitez&count_private=true&show_icons=true)
 
-## 学习路径
-- 201905-201911 内网渗透/免杀
 
-- 201911-202003 自动化信息收集/自动化漏洞扫描
-
-- 202003-202009 免杀/钓鱼/自动化扫描
-
-- 202009-now 自动化扫描
