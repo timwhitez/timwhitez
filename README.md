@@ -1,6 +1,6 @@
 ## About Me
 
-- Red Team Security Researcher.
+- Offensive Security Researcher.
 - [HackerOne](https://hackerone.com/timwhite) Security Bug Hunter, focused on automated vulnerability discovery.
 - Core members of [xrayteam](https://xray.cool/team/).
 - 📫 How to reach me: twhite.zh@gmail.com
