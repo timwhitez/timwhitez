@@ -12,7 +12,7 @@
 - [xrayteam](https://xray.cool/team/) 团队核心成员
 - 📫 联系我: twhite.zh@gmail.com
 
-- 仅有过一次被溯源经历(防守方并未得分的情况下被疯狂宣传鞭尸)。实名diss国内某厂商
+- 本人仅有过一次被溯源经历(防守方并未得分的情况下被疯狂宣传鞭尸，实则是拿不出啥别的溯源报告了)。实名diss该溯源报告乱发的厂商 :)
 
 ## Github stats
 ![timwhite's github stats](https://github-readme-stats.vercel.app/api?username=timwhitez&count_private=true&show_icons=true)
