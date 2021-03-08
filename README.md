@@ -16,7 +16,7 @@
 
 (防守方并未得分的情况下被疯狂宣传鞭尸，属实是拿不出啥别的溯源报告了)。
 
-实名diss该溯源报告乱发的厂商 :)
+实名diss溯源报告乱发的天融信厂商以及微步的宣传 :)
 
 ## Github stats
 ![timwhite's github stats](https://github-readme-stats.vercel.app/api?username=timwhitez&count_private=true&show_icons=true)
