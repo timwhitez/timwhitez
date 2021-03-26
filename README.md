@@ -24,7 +24,7 @@
 ![timwhite's github stats](https://github-readme-stats.vercel.app/api?username=timwhitez&count_private=true&show_icons=true)
 
 ## etc
-1. 开源的样本大部分可能已经失效,需要自行修改
+1. 开源的样本大部分可能已经无法免杀,需要自行修改
 
 2. 我认为基础核心代码的开源能够帮助想学习的人
  
