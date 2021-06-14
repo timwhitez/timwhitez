@@ -12,16 +12,11 @@
 - [xrayteam](https://xray.cool/team/) 团队核心成员
 - 📫 联系我: twhite.zh@gmail.com
 
-
-## Blacklist
-- 本人有幸被溯源过
-
-防守方并未得分的情况下被疯狂宣传鞭尸，属实是拿不出啥别的溯源报告了。
-
-实名diss溯源报告乱发的天融信防守方以及微步在线对我个人信息的宣传 :)
-
 ## Github stats
 ![timwhite's github stats](https://github-readme-stats.vercel.app/api?username=timwhitez&count_private=true&show_icons=true)
+
+## Visit Count
+![Visitor Count](https://profile-counter.glitch.me/timwhitez/count.svg)
 
 ## etc
 1. 开源的样本大部分可能已经无法免杀,需要自行修改
