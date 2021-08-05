@@ -19,6 +19,9 @@
 ![Visitor Count](https://profile-counter.glitch.me/timwhitez/count.svg)
 
 ## etc
+
+被溯源报告吸引过来的老哥们，别光看个乐，交流交流技术多好
+
 1. 开源的样本大部分可能已经无法免杀,需要自行修改
 
 2. 我认为基础核心代码的开源能够帮助想学习的人
