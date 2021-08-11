@@ -8,6 +8,7 @@
 ## 关于我
 
 - 红队攻防技术研究
+- 免杀/对抗 狂热爱好者
 - [HackerOne](https://hackerone.com/timwhite) 漏洞猎手，关注自动化漏洞扫描技术
 - [xrayteam](https://xray.cool/team/) 团队核心成员
 - 📫 联系我: twhite.zh@gmail.com
