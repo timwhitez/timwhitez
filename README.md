@@ -11,7 +11,7 @@
 - 📫 联系我: twhite.zh@gmail.com
 
 ## Github stats & metrics
-![timwhite's github stats](https://github-readme-stats-ruby-one.vercel.app/api?username=timwhitez&count_private=true&show_icons=true)
+![timwhite's github stats](https://github-readme-stats.vercel.app/api?username=timwhitez&count_private=true&show_icons=true)
 
 ![matrics](https://metrics.lecoq.io/timwhitez?template=classic&base.header=0&base.activity=0&base.community=0&base.repositories=0&base.metadata=0&isocalendar=1&isocalendar.duration=full-year&config.timezone=Asia%2FShanghai)
 
