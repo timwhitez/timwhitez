@@ -15,6 +15,8 @@
 
 ![matrics](https://metrics.lecoq.io/timwhitez?template=classic&base.header=0&base.activity=0&base.community=0&base.repositories=0&base.metadata=0&isocalendar=1&isocalendar.duration=full-year&config.timezone=Asia%2FShanghai)
 
+![picture](https://raw.githubusercontent.com/saadeghi/saadeghi/master/dino.gif)
+
 ## etc
 
 1. 开源的样本大部分可能已经无法免杀,需要自行修改
