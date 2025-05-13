@@ -1,7 +1,7 @@
 ## About Me
 
 - Offensive Security Researcher.
-- Interested in Defense Evasion techniques.
+- Interested in AI/LLMs.
 - 📫 How to reach me: twhite.zh@gmail.com
 
 ## 关于我
