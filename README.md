@@ -14,6 +14,3 @@
 ![timwhite's github stats](https://github-readme-stats.vercel.app/api?username=timwhitez&count_private=true&show_icons=true)
 
 ![picture](https://raw.githubusercontent.com/saadeghi/saadeghi/master/dino.gif)
-
-## Visit Count
-![Visitor Count](https://profile-counter.glitch.me/timwhitez/count.svg)
