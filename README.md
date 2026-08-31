@@ -2,68 +2,64 @@
 
 # Tim White
 
-### AI Agent Systems · Security Engineering · Applied Research
+### AI agents · security engineering
 
-**Model-led agents, verifier-grounded evaluation, and AI-native security tooling.**
+I work on agent runtimes, evaluation harnesses, and security tooling, with an interest in systems that are observable, recoverable, and grounded in external evidence.
 
-I build systems around the model—tools, state, context, feedback, verification, and recovery—without replacing open-ended reasoning with brittle workflow logic.
-
-[Research direction](#research-direction) · [Selected projects](#selected-projects) · [Security engineering](#security-engineering) · [Engineering principles](#engineering-principles) · [中文简介](#中文简介) · [Email](mailto:twhite.zh@gmail.com)
+[Current interests](#current-interests) · [Projects](#projects) · [Security work](#security-work) · [Working preferences](#working-preferences) · [中文简介](#中文简介) · [Email](mailto:twhite.zh@gmail.com)
 
 </div>
 
 ---
 
-## Research direction
+## Current interests
 
-My work connects two threads: a background in offensive security and a current focus on autonomous systems that can operate against real environments and produce evidence you can trust.
+My background is in offensive security. More recently, I have been spending time on agent systems and on the infrastructure around them.
 
-| Track | What I care about |
+| Area | Topics |
 | --- | --- |
-| **Agent runtimes & harnesses** | Preserve model autonomy while improving tools, durable state, context management, live steering, and recovery. |
-| **Evaluation & self-improvement** | Turn verifier evidence and reproducible trajectories into bounded improvements without optimizing for self-report, demos, or benchmark-specific workflow logic. |
-| **AI × security** | Expose reverse-engineering and security environments through safe, bounded, agent-readable interfaces with explicit evidence strength. |
+| **Agent runtimes & harnesses** | Tools, durable state, context management, live steering, and recovery. |
+| **Evaluation & self-improvement** | Verifier feedback, reproducible trajectories, bounded changes, and regression checks. |
+| **AI × security** | Agent-readable interfaces for reverse engineering and security analysis, with explicit evidence and safety boundaries. |
 
-## Selected projects
+## Projects
 
-| Project | Focus | What makes it different |
+| Project | Area | Notes |
 | --- | --- | --- |
-| **[AutoRE-CLI](https://github.com/timwhitez/AutoRE-CLI)** | AI × reverse engineering | Bounded static analysis for humans and agents, with traceable JSON/CFG/IL output, explicit evidence states, agent-sized context, and no execution of target bytes. |
-| **[Aegis Agent](https://github.com/timwhitez/aegis-agent)** | Local agent runtime · Go | The model remains the agent. The harness supplies a Web console, tools, durable session state, compaction, live steering, provider adapters, and explicit safety boundaries. |
-| **[HarnessEvolver](https://github.com/timwhitez/harness-evolver)** | Coding-agent evaluation · Rust/Python | Harbor/verifier output is ground truth; verified failures become small, reviewable harness changes with regression gates and auditable evidence. |
-| **[dsh-self-evolving](https://github.com/timwhitez/dsh-self-evolving)** | Self-evolution controller · TypeScript | Crash-resumable candidate generation, isolated admission and evaluation, durable lineage, budget enforcement, and explicit trust boundaries. |
+| **[AutoRE-CLI](https://github.com/timwhitez/AutoRE-CLI)** | AI × reverse engineering | A bounded static-analysis interface for humans and agents, with traceable JSON, CFG, and IL output and explicit evidence states. |
+| **[Aegis Agent](https://github.com/timwhitez/aegis-agent)** | Local agent runtime · Go | A local agent harness with a Web console, tools, durable session state, compaction, live steering, provider adapters, and safety boundaries. |
+| **[HarnessEvolver](https://github.com/timwhitez/harness-evolver)** | Coding-agent evaluation · Rust/Python | An experimental harness that uses Harbor and verifier output to study failures and review bounded harness changes. |
+| **[dsh-self-evolving](https://github.com/timwhitez/dsh-self-evolving)** | Self-evolution controller · TypeScript | Experiments with resumable candidate generation, isolated admission and evaluation, lineage, budgets, and trust boundaries. |
 
-**Companion project:** [ida-pro-skill](https://github.com/timwhitez/ida-pro-skill) provides a skill-first bridge that lets coding agents work against a live IDA database through a local, bounded interface.
+[ida-pro-skill](https://github.com/timwhitez/ida-pro-skill) is a small companion project for connecting coding agents to a live IDA database through a local, bounded interface.
 
-## Security engineering
+## Security work
 
-Security is not only my earlier background; it is the systems discipline behind how I think about attack surfaces, trust boundaries, observability, and failure. These projects best represent the depth and reach of my public security work.
+A few public projects from my earlier and ongoing security work:
 
-| Project | Area | Why it stands out |
+| Project | Area | Notes |
 | --- | --- | --- |
-| **[Doge-Gabh](https://github.com/timwhitez/Doge-Gabh)** | Windows internals · Go | A reusable native-API toolkit combining PE parsing, API hashing, ntdll remapping, syscall discovery and invocation, DLL unhooking, and proxy-call research. |
-| **[BinHol](https://github.com/timwhitez/BinHol)** | PE binary engineering · Go | A Windows PE rewriting tool supporting function patching, entry-point hijacking, TLS injection, certificate-table handling, and dynamic patch sizing. |
-| **[crawlergo_x_XRAY](https://github.com/timwhitez/crawlergo_x_XRAY)** | Web attack-surface automation · Python | Connects dynamic crawling with passive vulnerability scanning, turning browser-discovered paths and requests into a repeatable security pipeline. |
-| **[Cobalt-Strike-Aggressor-Scripts](https://github.com/timwhitez/Cobalt-Strike-Aggressor-Scripts)** | Operator automation | A modular Aggressor scripting collection that translated red-team workflows into reusable tooling and achieved sustained community adoption. |
+| **[Doge-Gabh](https://github.com/timwhitez/Doge-Gabh)** | Windows internals · Go | A native-API toolkit covering PE parsing, API hashing, ntdll remapping, syscall-related experiments, DLL unhooking, and proxy calls. |
+| **[BinHol](https://github.com/timwhitez/BinHol)** | PE binary engineering · Go | A PE rewriting tool with function patching, entry-point changes, TLS injection, certificate-table handling, and dynamic patch sizing. |
+| **[crawlergo_x_XRAY](https://github.com/timwhitez/crawlergo_x_XRAY)** | Web attack-surface automation · Python | Connects dynamic crawling with passive vulnerability scanning for repeatable request discovery and analysis. |
+| **[Cobalt-Strike-Aggressor-Scripts](https://github.com/timwhitez/Cobalt-Strike-Aggressor-Scripts)** | Operator automation | A collection of Aggressor scripts developed around practical red-team workflows. |
 
-`crawlergo_x_XRAY` and `Cobalt-Strike-Aggressor-Scripts` represent open-source reach; `Doge-Gabh` and `BinHol` better represent systems-level and binary-engineering depth.
+These repositories are published for authorized research, engineering, and defensive understanding.
 
-Public security work is intended for authorized research, engineering, and defensive understanding.
+## Working preferences
 
-## Engineering principles
-
-- **Model capability first.** Prefer general mechanisms that amplify reasoning over hand-authored workflows that constrain it.
-- **Verifier over self-report.** A plausible completion is not an outcome; external evidence decides what happened.
-- **Evidence before confidence.** Separate what is validated, inferred, unresolved, and deliberately not claimed.
-- **Recoverability is a feature.** Durable state, replay, explicit failure modes, and deterministic checks matter in long-running systems.
-- **Measure the harness.** Instrument enough of the environment to distinguish model limitations from harness defects.
+- Keep the harness relatively simple and leave open-ended reasoning to the model where practical.
+- Prefer external verification to a model's own report of success.
+- Keep validated facts, inferences, and unresolved questions separate.
+- Design long-running work so it can be inspected, resumed, and reproduced.
+- Add enough instrumentation to tell model limitations from harness problems.
 
 ## 中文简介
 
-我长期从事攻防安全、安全架构与工具工程，公开项目覆盖 **Windows 原生调用、PE 二进制工程、Web 攻击面自动化与红队工具工程**。目前主要研究和构建 **AI Agent、Agent Harness、自进化系统、评测与验证器，以及 AI × 安全工具**。
+之前主要从事攻防安全、安全架构和工具工程，最近把更多时间放在 **AI Agent、Agent Harness、评测、自进化系统，以及 AI × 安全工具** 上。这里整理了一些公开项目和仍在探索的方向。
 
-核心思路是：不让复杂工作流替代模型推理，而是通过更好的环境、工具、反馈、状态管理和验证放大模型能力，并让长程任务保持 **可观测、可恢复、可审计**。
+做系统时，我通常倾向于保持框架简单，把开放式推理留给模型，同时补足工具、状态、反馈、验证和恢复能力。相比演示效果，我更关注过程是否 **可观测、可复现、可恢复**。
 
 ---
 
-**Contact:** [twhite.zh@gmail.com](mailto:twhite.zh@gmail.com)
+Contact: [twhite.zh@gmail.com](mailto:twhite.zh@gmail.com)
