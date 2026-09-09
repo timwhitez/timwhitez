@@ -6,11 +6,21 @@
 
 I work on agent runtimes, evaluation harnesses, and security tooling, with an interest in systems that are observable, recoverable, and grounded in external evidence.
 
-[Current interests](#current-interests) · [Projects](#projects) · [Security work](#security-work) · [Working preferences](#working-preferences) · [中文简介](#中文简介) · [Email](mailto:twhite.zh@gmail.com)
+[Start here](START_HERE.md) · [Current interests](#current-interests) · [Projects](#projects) · [Security work](#security-work) · [Working preferences](#working-preferences) · [中文简介](#中文简介) · [Email](mailto:twhite.zh@gmail.com)
 
 </div>
 
 ---
+
+## Start here
+
+| What you are looking for | First stop |
+| --- | --- |
+| Static binary-analysis evidence for a human or agent | [AutoRE-CLI controlled demo](https://github.com/timwhitez/AutoRE-CLI/tree/main/examples/controlled) |
+| Security review guidance for AI/GPU clouds | [neocloud-sec reading paths](https://github.com/timwhitez/neocloud-sec#start-here) |
+| Experiments with verifier feedback and agent harnesses | [HarnessEvolver scope and setup](https://github.com/timwhitez/harness-evolver#status-and-scope) |
+
+[Project guide and limitations](START_HERE.md) · [中文项目导览](START_HERE.md#中文导览)
 
 ## Current interests
 
@@ -27,6 +37,7 @@ My background is in offensive security. More recently, I have been spending time
 | Project | Area | Notes |
 | --- | --- | --- |
 | **[AutoRE-CLI](https://github.com/timwhitez/AutoRE-CLI)** | AI × reverse engineering | A bounded static-analysis interface for humans and agents, with traceable JSON, CFG, and IL output and explicit evidence states. |
+| **[neocloud-sec](https://github.com/timwhitez/neocloud-sec)** | AI/GPU cloud security | A draft security baseline, reference architecture, practice guides, and local metadata validators; not a deployed control plane or certification. |
 | **[Aegis Agent](https://github.com/timwhitez/aegis-agent)** | Local agent runtime · Go | A local agent harness with a Web console, tools, durable session state, compaction, live steering, provider adapters, and safety boundaries. |
 | **[HarnessEvolver](https://github.com/timwhitez/harness-evolver)** | Coding-agent evaluation · Rust/Python | An experimental harness that uses Harbor and verifier output to study failures and review bounded harness changes. |
 | **[dsh-self-evolving](https://github.com/timwhitez/dsh-self-evolving)** | Self-evolution controller · TypeScript | Experiments with resumable candidate generation, isolated admission and evaluation, lineage, budgets, and trust boundaries. |
@@ -61,5 +72,7 @@ These repositories are published for authorized research, engineering, and defen
 做系统时，我通常倾向于保持框架简单，把开放式推理留给模型，同时补足工具、状态、反馈、验证和恢复能力。相比演示效果，我更关注过程是否 **可观测、可复现、可恢复**。
 
 ---
+
+For related public projects, you can follow this profile. Reproducible bug reports and concrete documentation corrections are welcome in the relevant project.
 
 Contact: [twhite.zh@gmail.com](mailto:twhite.zh@gmail.com)
